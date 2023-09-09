@@ -136,13 +136,21 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
   }
   
-  
+  div .searchBar{
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+
+
   
   .searchBar {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 0rem;
+
   }
   
   #searchQueryInput {
